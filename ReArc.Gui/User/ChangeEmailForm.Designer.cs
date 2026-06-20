@@ -41,7 +41,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.mail32;
+            pictureBox1.Image = Properties.Icons.mail32;
             pictureBox1.Location = new Point(23, 23);
             pictureBox1.Margin = new Padding(0, 0, 10, 0);
             pictureBox1.Name = "pictureBox1";

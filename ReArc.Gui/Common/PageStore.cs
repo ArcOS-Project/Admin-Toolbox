@@ -17,71 +17,71 @@ namespace ReArc.Gui.Common
             new()
             {
                 Name = "Dashboard",
-                Image = Properties.Resources.dashboard16,
+                Image = Properties.Icons.dashboard,
                 Page = () => new Home()
             },
             new()
             {
                 Name = "Bug Reports",
-                Image = Properties.Resources.crash16,
+                Image = Properties.Icons.bug,
                 Page = () => new BugReports(),
                 Separator = true
             },
             new()
             {
                 Name = "Users",
-                Image = Properties.Resources.users16,
+                Image = Properties.Icons.users,
                 Page = () => new Users(),
                 Separator = true
             },
             new()
             {
                 Name = "Shares",
-                Image = Properties.Resources.share16,
+                Image = Properties.Icons.share,
                 Page = () => new Shares()
             },
             new()
             {
                 Name = "Filesystems",
-                Image = Properties.Resources.keyfs16,
+                Image = Properties.Icons.userfs,
                 Page = () => new Filesystems()
             },
             new()
             {
                 Name = "App Store",
-                Image = Properties.Resources.installer16,
+                Image = Properties.Icons.appstore,
                 Page = () => new Users(),
                 Separator = true
             },
             new()
             {
                 Name = "Tokens",
-                Image = Properties.Resources.keys16,
+                Image = Properties.Icons.tokens,
                 Page = () => new Users()
             },
             new()
             {
                 Name = "Activities",
-                Image = Properties.Resources.lock16,
+                Image = Properties.Icons.padlock,
                 Page = () => new Users()
             },
             new()
             {
                 Name = "Scopes",
-                Image = Properties.Resources.elevate16,
+                Image = Properties.Icons.administrator,
                 Page = () => new Users(),
                 Separator = true
             },
             new()
             {
                 Name = "Audit Log",
-                Image = Properties.Resources.cabinet16,
+                Image = Properties.Icons.audit,
                 Page = () => new Users()
             },
             new()
             {
                 Name = "Logs",
-                Image = Properties.Resources.event16,
+                Image = Properties.Icons.logs,
                 Page = () => new Users()
             }
         ];

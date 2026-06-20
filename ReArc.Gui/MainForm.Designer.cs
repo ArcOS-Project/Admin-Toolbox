@@ -145,7 +145,7 @@
             // usernameToolStripMenuItem
             // 
             usernameToolStripMenuItem.Enabled = false;
-            usernameToolStripMenuItem.Image = Properties.Resources.user16;
+            usernameToolStripMenuItem.Image = Properties.Icons.user;
             usernameToolStripMenuItem.Name = "usernameToolStripMenuItem";
             usernameToolStripMenuItem.Size = new Size(134, 22);
             usernameToolStripMenuItem.Text = "(username)";
@@ -164,7 +164,7 @@
             // 
             // logOutToolStripMenuItem
             // 
-            logOutToolStripMenuItem.Image = Properties.Resources.logout16;
+            logOutToolStripMenuItem.Image = Properties.Icons.logout;
             logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
             logOutToolStripMenuItem.Size = new Size(134, 22);
             logOutToolStripMenuItem.Text = "Log out";
@@ -174,7 +174,7 @@
             // 
             ServerButton.Alignment = ToolStripItemAlignment.Right;
             ServerButton.DropDownItems.AddRange(new ToolStripItem[] { ServerUrlItem, disconnectToolStripMenuItem });
-            ServerButton.Image = Properties.Resources.globe;
+            ServerButton.Image = Properties.Icons.globe;
             ServerButton.ImageTransparentColor = Color.Magenta;
             ServerButton.Name = "ServerButton";
             ServerButton.Size = new Size(67, 22);
@@ -189,7 +189,7 @@
             // 
             // disconnectToolStripMenuItem
             // 
-            disconnectToolStripMenuItem.Image = Properties.Resources.grayglobe;
+            disconnectToolStripMenuItem.Image = Properties.Icons.disconnect;
             disconnectToolStripMenuItem.Name = "disconnectToolStripMenuItem";
             disconnectToolStripMenuItem.Size = new Size(133, 22);
             disconnectToolStripMenuItem.Text = "Disconnect";
@@ -295,7 +295,7 @@
             // pictureBox2
             // 
             pictureBox2.Anchor = AnchorStyles.Right;
-            pictureBox2.Image = Properties.Resources.globe;
+            pictureBox2.Image = Properties.Icons.globe;
             pictureBox2.Location = new Point(655, 46);
             pictureBox2.Margin = new Padding(0);
             pictureBox2.Name = "pictureBox2";

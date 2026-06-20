@@ -118,80 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="password32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\password32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hourglass32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hourglass32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logout16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logout16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="presenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\presenter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="checklist16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\checklist16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="share16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\share16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="dashboardbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dashboardbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="id16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\id16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="flag16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\flag16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="keyfs32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\keyfs32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cabinet16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cabinet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="banner-wide" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\banner-wide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="warning16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\warning16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="crash16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\crash16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="elevate16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\elevate16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mail16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mail16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="keyfs16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\keyfs16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hourglass16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hourglass16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="trash16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trash16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="globe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\globe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="exit16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exit16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="id32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\id32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="users16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\users16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mainbanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mainbanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,43 +130,13 @@
   <data name="sidebarbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sidebarbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mail32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mail32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lock16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lock16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="installer16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\installer16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="biometrics16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\biometrics16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="event16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\event16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="server 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\server 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dashboardstatbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dashboardstatbg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="copy16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\copy16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="server 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\server 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grayglobe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grayglobe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="keys16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\keys16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dashboard16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dashboard16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="biometrics32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\biometrics32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

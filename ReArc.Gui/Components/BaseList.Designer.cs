@@ -63,7 +63,7 @@
             FilterBox.SelectedIndexChanged += FilterDropdown_SelectedIndexChanged;
 
             SearchButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            SearchButton.Image = Properties.Resources.search16;
+            SearchButton.Image = Properties.Icons.magnifier;
             SearchButton.Location = new Point(714, 17);
             SearchButton.Name = "SearchButton";
             SearchButton.Size = new Size(25, 25);

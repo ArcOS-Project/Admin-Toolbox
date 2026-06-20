@@ -341,7 +341,7 @@
             // LogsButton
             // 
             LogsButton.BackgroundImageLayout = ImageLayout.Zoom;
-            LogsButton.Image = Properties.Resources.event16;
+            LogsButton.Image = Properties.Icons.logs;
             LogsButton.ImageAlign = ContentAlignment.TopLeft;
             LogsButton.Location = new Point(13, 123);
             LogsButton.Name = "LogsButton";
@@ -355,7 +355,7 @@
             // AuditLogButton
             // 
             AuditLogButton.BackgroundImageLayout = ImageLayout.Zoom;
-            AuditLogButton.Image = Properties.Resources.cabinet16;
+            AuditLogButton.Image = Properties.Icons.audit;
             AuditLogButton.ImageAlign = ContentAlignment.TopLeft;
             AuditLogButton.Location = new Point(13, 90);
             AuditLogButton.Name = "AuditLogButton";
@@ -369,7 +369,7 @@
             // ScopesButton
             // 
             ScopesButton.BackgroundImageLayout = ImageLayout.Zoom;
-            ScopesButton.Image = Properties.Resources.elevate16;
+            ScopesButton.Image = Properties.Icons.administrator;
             ScopesButton.ImageAlign = ContentAlignment.TopLeft;
             ScopesButton.Location = new Point(13, 57);
             ScopesButton.Name = "ScopesButton";
@@ -383,7 +383,7 @@
             // BugReportButton
             // 
             BugReportButton.BackgroundImageLayout = ImageLayout.Zoom;
-            BugReportButton.Image = Properties.Resources.crash16;
+            BugReportButton.Image = Properties.Icons.bug;
             BugReportButton.ImageAlign = ContentAlignment.TopLeft;
             BugReportButton.Location = new Point(13, 24);
             BugReportButton.Name = "BugReportButton";
@@ -411,7 +411,7 @@
             // AppStoreButton
             // 
             AppStoreButton.BackgroundImageLayout = ImageLayout.Zoom;
-            AppStoreButton.Image = Properties.Resources.installer16;
+            AppStoreButton.Image = Properties.Icons.appstore;
             AppStoreButton.ImageAlign = ContentAlignment.TopLeft;
             AppStoreButton.Location = new Point(13, 90);
             AppStoreButton.Name = "AppStoreButton";
@@ -425,7 +425,7 @@
             // SharesButton
             // 
             SharesButton.BackgroundImageLayout = ImageLayout.Zoom;
-            SharesButton.Image = Properties.Resources.share16;
+            SharesButton.Image = Properties.Icons.share;
             SharesButton.ImageAlign = ContentAlignment.TopLeft;
             SharesButton.Location = new Point(13, 57);
             SharesButton.Name = "SharesButton";
@@ -440,7 +440,7 @@
             // FilesystemsButton
             // 
             FilesystemsButton.BackgroundImageLayout = ImageLayout.Zoom;
-            FilesystemsButton.Image = Properties.Resources.keyfs16;
+            FilesystemsButton.Image = Properties.Icons.userfs;
             FilesystemsButton.ImageAlign = ContentAlignment.TopLeft;
             FilesystemsButton.Location = new Point(13, 24);
             FilesystemsButton.Name = "FilesystemsButton";
@@ -467,7 +467,7 @@
             // ActivitiesButton
             // 
             ActivitiesButton.BackgroundImageLayout = ImageLayout.Zoom;
-            ActivitiesButton.Image = Properties.Resources.flag16;
+            ActivitiesButton.Image = Properties.Icons.padlock;
             ActivitiesButton.ImageAlign = ContentAlignment.TopLeft;
             ActivitiesButton.Location = new Point(14, 90);
             ActivitiesButton.Name = "ActivitiesButton";
@@ -481,7 +481,7 @@
             // TokensButton
             // 
             TokensButton.BackgroundImageLayout = ImageLayout.Zoom;
-            TokensButton.Image = Properties.Resources.keys16;
+            TokensButton.Image = Properties.Icons.tokens;
             TokensButton.ImageAlign = ContentAlignment.TopLeft;
             TokensButton.Location = new Point(13, 57);
             TokensButton.Name = "TokensButton";
@@ -495,7 +495,7 @@
             // UsersButton
             // 
             UsersButton.BackgroundImageLayout = ImageLayout.Zoom;
-            UsersButton.Image = Properties.Resources.users16;
+            UsersButton.Image = Properties.Icons.users;
             UsersButton.ImageAlign = ContentAlignment.TopLeft;
             UsersButton.Location = new Point(13, 24);
             UsersButton.Name = "UsersButton";
@@ -519,7 +519,7 @@
             // ProfilePictureBox
             // 
             ProfilePictureBox.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            ProfilePictureBox.BackgroundImage = Properties.Resources.user16;
+            ProfilePictureBox.BackgroundImage = Properties.Icons.user;
             ProfilePictureBox.BackgroundImageLayout = ImageLayout.Zoom;
             ProfilePictureBox.Location = new Point(478, 28);
             ProfilePictureBox.Name = "ProfilePictureBox";

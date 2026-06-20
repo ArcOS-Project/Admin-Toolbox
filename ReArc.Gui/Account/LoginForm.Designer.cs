@@ -131,7 +131,7 @@ partial class LoginForm
         // 
         // pictureBox2
         // 
-        pictureBox2.Image = Properties.Resources.warning16;
+        pictureBox2.Image = Properties.Icons.warning;
         pictureBox2.Location = new Point(23, 123);
         pictureBox2.Margin = new Padding(0, 0, 5, 0);
         pictureBox2.Name = "pictureBox2";

@@ -196,7 +196,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.keyfs32;
+            pictureBox1.Image = Properties.Icons.userfs32;
             pictureBox1.Location = new Point(213, 61);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(32, 32);
@@ -282,7 +282,7 @@
             // 
             // ProfilePictureBox
             // 
-            ProfilePictureBox.InitialImage = Properties.Resources.user16;
+            ProfilePictureBox.InitialImage = Properties.Icons.user;
             ProfilePictureBox.Location = new Point(13, 29);
             ProfilePictureBox.Name = "ProfilePictureBox";
             ProfilePictureBox.Size = new Size(64, 64);
@@ -563,7 +563,7 @@
             // CredentialsMenu
             // 
             CredentialsMenu.DropDownItems.AddRange(new ToolStripItem[] { ChangeEmailAction, ChangePasswordAction, toolStripSeparator1, Manage2faAction, toolStripSeparator2, LogOutAction });
-            CredentialsMenu.Image = Properties.Resources.keys16;
+            CredentialsMenu.Image = Properties.Icons.tokens;
             CredentialsMenu.ImageTransparentColor = Color.Magenta;
             CredentialsMenu.Name = "CredentialsMenu";
             CredentialsMenu.Size = new Size(95, 22);
@@ -571,49 +571,49 @@
             // 
             // ChangeEmailAction
             // 
-            ChangeEmailAction.Image = Properties.Resources.mail16;
+            ChangeEmailAction.Image = Properties.Icons.mail;
             ChangeEmailAction.Name = "ChangeEmailAction";
-            ChangeEmailAction.Size = new Size(180, 22);
+            ChangeEmailAction.Size = new Size(178, 22);
             ChangeEmailAction.Text = "Change email...";
             ChangeEmailAction.Click += ChangeEmailAction_Click;
             // 
             // ChangePasswordAction
             // 
-            ChangePasswordAction.Image = Properties.Resources.keys16;
+            ChangePasswordAction.Image = Properties.Icons.tokens;
             ChangePasswordAction.Name = "ChangePasswordAction";
-            ChangePasswordAction.Size = new Size(180, 22);
+            ChangePasswordAction.Size = new Size(178, 22);
             ChangePasswordAction.Text = "Reset password...";
             ChangePasswordAction.Click += ChangePasswordAction_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(177, 6);
+            toolStripSeparator1.Size = new Size(175, 6);
             // 
             // Manage2faAction
             // 
-            Manage2faAction.Image = Properties.Resources.biometrics16;
+            Manage2faAction.Image = Properties.Icons.totp;
             Manage2faAction.Name = "Manage2faAction";
-            Manage2faAction.Size = new Size(180, 22);
+            Manage2faAction.Size = new Size(178, 22);
             Manage2faAction.Text = "Manage 2FA";
             Manage2faAction.Click += Manage2faAction_Click;
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(177, 6);
+            toolStripSeparator2.Size = new Size(175, 6);
             // 
             // LogOutAction
             // 
-            LogOutAction.Image = Properties.Resources.logout16;
+            LogOutAction.Image = Properties.Icons.logout;
             LogOutAction.Name = "LogOutAction";
-            LogOutAction.Size = new Size(180, 22);
+            LogOutAction.Size = new Size(178, 22);
             LogOutAction.Text = "Log out everywhere";
             // 
             // DangerZoneMenu
             // 
             DangerZoneMenu.DropDownItems.AddRange(new ToolStripItem[] { ApprovedAction, AdministratorAction, toolStripSeparator3, DeleteUserAction });
-            DangerZoneMenu.Image = Properties.Resources.warning16;
+            DangerZoneMenu.Image = Properties.Icons.warning;
             DangerZoneMenu.ImageTransparentColor = Color.Magenta;
             DangerZoneMenu.Name = "DangerZoneMenu";
             DangerZoneMenu.Size = new Size(104, 22);
@@ -621,30 +621,30 @@
             // 
             // ApprovedAction
             // 
-            ApprovedAction.Image = Properties.Resources.lock16;
+            ApprovedAction.Image = Properties.Icons.padlock;
             ApprovedAction.Name = "ApprovedAction";
-            ApprovedAction.Size = new Size(147, 22);
+            ApprovedAction.Size = new Size(180, 22);
             ApprovedAction.Text = "Approved";
             ApprovedAction.Click += ApprovedAction_Click;
             // 
             // AdministratorAction
             // 
-            AdministratorAction.Image = Properties.Resources.elevate16;
+            AdministratorAction.Image = Properties.Icons.administrator;
             AdministratorAction.Name = "AdministratorAction";
-            AdministratorAction.Size = new Size(147, 22);
+            AdministratorAction.Size = new Size(180, 22);
             AdministratorAction.Text = "Administrator";
             AdministratorAction.Click += AdministratorAction_Click;
             // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(144, 6);
+            toolStripSeparator3.Size = new Size(177, 6);
             // 
             // DeleteUserAction
             // 
-            DeleteUserAction.Image = Properties.Resources.trash16;
+            DeleteUserAction.Image = Properties.Icons.recycle;
             DeleteUserAction.Name = "DeleteUserAction";
-            DeleteUserAction.Size = new Size(147, 22);
+            DeleteUserAction.Size = new Size(180, 22);
             DeleteUserAction.Text = "Delete User";
             DeleteUserAction.Click += DeleteUserAction_Click;
             // 
@@ -656,7 +656,7 @@
             // QuickSwitcher
             // 
             QuickSwitcher.Alignment = ToolStripItemAlignment.Right;
-            QuickSwitcher.Image = Properties.Resources.users16;
+            QuickSwitcher.Image = Properties.Icons.users;
             QuickSwitcher.ImageTransparentColor = Color.Magenta;
             QuickSwitcher.Name = "QuickSwitcher";
             QuickSwitcher.Size = new Size(88, 22);
@@ -664,39 +664,38 @@
             // 
             // CopyMenu
             // 
-            CopyMenu.DisplayStyle = ToolStripItemDisplayStyle.Text;
             CopyMenu.DropDownItems.AddRange(new ToolStripItem[] { UsernameCopyAction, UserIdCopyAction, EmailAddressCopyAction, ProfilePictureCopyAction });
-            CopyMenu.Image = (Image)resources.GetObject("CopyMenu.Image");
+            CopyMenu.Image = Properties.Icons.clipboard;
             CopyMenu.ImageTransparentColor = Color.Magenta;
             CopyMenu.Name = "CopyMenu";
-            CopyMenu.Size = new Size(57, 22);
+            CopyMenu.Size = new Size(73, 22);
             CopyMenu.Text = "Copy...";
             // 
             // UsernameCopyAction
             // 
             UsernameCopyAction.Name = "UsernameCopyAction";
-            UsernameCopyAction.Size = new Size(172, 22);
+            UsernameCopyAction.Size = new Size(180, 22);
             UsernameCopyAction.Text = "Username";
             UsernameCopyAction.Click += UsernameCopyAction_Click;
             // 
             // UserIdCopyAction
             // 
             UserIdCopyAction.Name = "UserIdCopyAction";
-            UserIdCopyAction.Size = new Size(172, 22);
+            UserIdCopyAction.Size = new Size(180, 22);
             UserIdCopyAction.Text = "User ID";
             UserIdCopyAction.Click += UserIdCopyAction_Click;
             // 
             // EmailAddressCopyAction
             // 
             EmailAddressCopyAction.Name = "EmailAddressCopyAction";
-            EmailAddressCopyAction.Size = new Size(172, 22);
+            EmailAddressCopyAction.Size = new Size(180, 22);
             EmailAddressCopyAction.Text = "Email Address";
             EmailAddressCopyAction.Click += EmailAddressCopyAction_Click;
             // 
             // ProfilePictureCopyAction
             // 
             ProfilePictureCopyAction.Name = "ProfilePictureCopyAction";
-            ProfilePictureCopyAction.Size = new Size(172, 22);
+            ProfilePictureCopyAction.Size = new Size(180, 22);
             ProfilePictureCopyAction.Text = "Profile Picture URL";
             ProfilePictureCopyAction.Click += ProfilePictureCopyAction_Click;
             // 

@@ -11,7 +11,7 @@ namespace ReArc.Gui.Components
         protected override List<DataGridViewColumn> Columns()
         {
             return [
-                TableHelpers.ImageColumn(Properties.Resources.user16, "Icon"),
+                TableHelpers.ImageColumn(Properties.Icons.user, "Icon"),
                 TableHelpers.TextColumn("Timestamp", "Timestamp"),
                 TableHelpers.TextColumn("Title", "Title", DataGridViewAutoSizeColumnMode.Fill),
                 TableHelpers.TextColumn("Author", "Author"),
@@ -51,7 +51,7 @@ namespace ReArc.Gui.Components
             var createdDate = DateTime.Parse(item.CreatedAt).ToString("dd-MM-yyyy, HH:mm:ss");
             var author = Users.Find((u) => u._id == item.AuthorId)?.Username ?? "Stranger";
 
-            return [Properties.Resources.crash16, createdDate, item.Title, author, !item.Closed, item.UserData != null];
+            return [Properties.Icons.bug, createdDate, item.Title, author, !item.Closed, item.UserData != null];
         }
 
         public static void Create(MainForm MainForm, Control target, List<ArcUser> users, List<BugReport> reports)

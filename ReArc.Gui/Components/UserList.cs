@@ -6,19 +6,20 @@ namespace ReArc.Gui.Components;
 
 public partial class UserList : BaseList<ArcUser>
 {
-    protected override List<string> FilterOptions() => ["All", "Regular", "Admins", "Approved", "Disapproved"];
+    protected override List<string> FilterOptions() => ["All", "Regular", "Admins", "Approved", "Disapproved", "System"];
 
     protected override List<DataGridViewColumn> Columns()
     {
         return [
-            TableHelpers.ImageColumn(Properties.Resources.user16,"ProfilePicture"),
+            TableHelpers.ImageColumn(Properties.Icons.user, "ProfilePicture"),
             TableHelpers.TextColumn("Username","Username"),
             TableHelpers.TextColumn("Email","Email address"),
             TableHelpers.TextColumn("Created","Created"),
             TableHelpers.CheckboxColumn("Approved", "Approved"),
             TableHelpers.CheckboxColumn("Admin", "Admin"),
-            TableHelpers.ImageColumn(Properties.Resources.id16, "View", "View User"),
-            TableHelpers.ImageColumn(Properties.Resources.copy16, "Copy", "Copy..."),
+            TableHelpers.CheckboxColumn("System", "System"),
+            TableHelpers.ImageColumn(Properties.Icons.eye, "View", "View User"),
+            TableHelpers.ImageColumn(Properties.Icons.clipboard, "Copy", "Copy..."),
         ];
     }
 
@@ -42,6 +43,7 @@ public partial class UserList : BaseList<ArcUser>
             "Admins" => item.Admin,
             "Approved" => item.Approved,
             "Disapproved" => !item.Approved,
+            "System" => item.IsSystem,
             _ => true
         };
     }
@@ -50,7 +52,7 @@ public partial class UserList : BaseList<ArcUser>
     {
         var createdDate = DateTime.Parse(item.CreatedAt).ToString("dd-MM-yyyy, HH:mm:ss");
 
-        return [Properties.Resources.user16, item.Username, item.Email, createdDate, item.Approved, item.Admin];
+        return [Properties.Icons.user, item.Username, item.Email, createdDate, item.Approved, item.Admin, item.IsSystem];
     }
 
     protected override void OnCellClicked(string columnName, ArcUser item, int row, int column)

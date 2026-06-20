@@ -21,10 +21,10 @@ namespace ReArc.Gui.Views
         private string _profilePicture = string.Empty;
         public ViewUser()
         {
-            _tabImages.Images.Add(Properties.Resources.exit16);
-            _tabImages.Images.Add(Properties.Resources.search16);
-            _tabImages.Images.Add(Properties.Resources.biometrics16);
-            _tabImages.Images.Add(Properties.Resources.elevate16);
+            _tabImages.Images.Add(Properties.Icons.logout);
+            _tabImages.Images.Add(Properties.Icons.magnifier);
+            _tabImages.Images.Add(Properties.Icons.totp);
+            _tabImages.Images.Add(Properties.Icons.padlock);
             InitializeComponent();
         }
 
@@ -105,7 +105,7 @@ namespace ReArc.Gui.Views
                 var MenuItem = new ToolStripMenuItem()
                 {
                     Text = user.Username,
-                    Image = Properties.Resources.user16,
+                    Image = Properties.Icons.user,
                     ImageScaling = ToolStripItemImageScaling.SizeToFit
                 };
 

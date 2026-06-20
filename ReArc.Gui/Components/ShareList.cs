@@ -15,7 +15,7 @@ namespace ReArc.Gui.Components
         protected override List<DataGridViewColumn> Columns()
         {
             return [
-                TableHelpers.ImageColumn(Properties.Resources.share16,"ProfilePicture"),
+                TableHelpers.ImageColumn(Properties.Icons.share,"ProfilePicture"),
                 TableHelpers.TextColumn("Name","Share name", DataGridViewAutoSizeColumnMode.Fill),
                 TableHelpers.TextColumn("Owner","Owner"),
                 TableHelpers.TextColumn("Members","Members"),
@@ -53,7 +53,7 @@ namespace ReArc.Gui.Components
         {
             var author = Users.Find((u) => u._id == item.UserId)?.Username ?? "Stranger";
 
-            return ([Properties.Resources.share16, item.ShareName, author, item.Accessors.Length, ByteHelpers.FormatBytes(item.MaxSize), item.Locked]);
+            return ([Properties.Icons.share, item.ShareName, author, item.Accessors.Length, ByteHelpers.FormatBytes(item.MaxSize), item.Locked]);
         }
 
         public static void Create(MainForm MainForm, Control target, List<ArcUser> users, List<SharedDrive> shares)

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoadingDialog));
             StatusLabel = new Label();
             ProgressBar = new ProgressBar();
             tableLayoutPanel1 = new TableLayoutPanel();
@@ -90,7 +91,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.hourglass32;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(448, 53);
             pictureBox2.Margin = new Padding(0);
             pictureBox2.Name = "pictureBox2";

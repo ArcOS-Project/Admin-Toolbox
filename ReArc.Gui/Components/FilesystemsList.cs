@@ -12,13 +12,13 @@ namespace ReArc.Gui.Components
         protected override List<DataGridViewColumn> Columns()
         {
             return [
-                TableHelpers.ImageColumn(Properties.Resources.share16, "Icon"),
+                TableHelpers.ImageColumn(Properties.Icons.share, "Icon"),
                 TableHelpers.TextColumn("Username", "Username", DataGridViewAutoSizeColumnMode.Fill),
                 TableHelpers.TextColumn("Used", "Used"),
                 TableHelpers.TextColumn("Free", "Free"),
                 TableHelpers.TextColumn("Total", "Total"),
                 TableHelpers.TextColumn("Percentage", "%"),
-                TableHelpers.ImageColumn(Properties.Resources.checklist16, "Index"),
+                TableHelpers.ImageColumn(Properties.Icons.indexing, "Index", "Index filesystem"),
             ];
         }
 
@@ -55,13 +55,13 @@ namespace ReArc.Gui.Components
 
             return
             [
-                Properties.Resources.user16,
+                Properties.Icons.user,
                 item.Username,
                 quota != null ? ByteHelpers.FormatBytes(quota.Used) : "",
                 quota != null ? ByteHelpers.FormatBytes(quota.Free) : "",
                 quota != null ? ByteHelpers.FormatBytes(quota.Max) : "",
                 $"{quota?.Percentage ?? 0:F2}%",
-                Properties.Resources.checklist16
+                Properties.Icons.indexing
             ];
         }
 

@@ -33,7 +33,7 @@ namespace ReArc.Gui
             newView.MainForm = this;
             _ = newView.Setup(name, props);
             CurrentPageLabel.Text = name;
-            CurrentPageLabel.Image = Pages.Find((p) => p.Name == name)?.Image ?? Properties.Resources.presenter;
+            CurrentPageLabel.Image = Pages.Find((p) => p.Name == name)?.Image ?? Properties.Icons.page;
             PopulateSidebarItems(name);
         }
 

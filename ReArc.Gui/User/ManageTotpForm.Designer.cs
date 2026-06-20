@@ -45,7 +45,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.biometrics32;
+            pictureBox1.Image = Properties.Icons.totp32;
             pictureBox1.Location = new Point(20, 20);
             pictureBox1.Margin = new Padding(0, 0, 15, 0);
             pictureBox1.Name = "pictureBox1";
