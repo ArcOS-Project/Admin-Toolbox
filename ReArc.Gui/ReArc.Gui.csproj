@@ -19,6 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Components\AccessorsList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Components\UserList.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -31,6 +34,9 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Accessors.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 

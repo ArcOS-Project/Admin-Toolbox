@@ -77,6 +77,7 @@
             SearchBox.Size = new Size(690, 23);
             SearchBox.TabIndex = 0;
             SearchBox.KeyDown += SearchBox_KeyDown;
+            SearchBox.PlaceholderText = "Search...";
 
             panel2.Controls.Add(GridView);
             panel2.Dock = DockStyle.Fill;

@@ -48,6 +48,12 @@ namespace ReArc.Gui.Common
             },
             new()
             {
+                Name = "Accessors",
+                Image = Properties.Icons.direction,
+                Page = () => new Accessors()
+            },
+            new()
+            {
                 Name = "App Store",
                 Image = Properties.Icons.appstore,
                 Page = () => new Users(),

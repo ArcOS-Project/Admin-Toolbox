@@ -179,5 +179,20 @@ namespace ReArc.ApiHandler.Controllers
 
             return CommandResult<bool>.Ok(true);
         }
+
+        public static async Task<CommandResult<List<FsAccess>>> GetAllAccessors()
+        {
+            var response = await Client.CurrentClient.GetJson<ICollection<FsAccess>>("/admin/accessors", UserController.Token!);
+            if (!response.Success) return CommandResult<List<FsAccess>>.Error(response.ErrorMessage);
+
+            return CommandResult<List<FsAccess>>.Ok(response.Result?.ToList() ?? []);
+        }
+        public static async Task<CommandResult<List<FsAccess>>> GetAccessorsOf(string username)
+        {
+            var response = await Client.CurrentClient.GetJson<ICollection<FsAccess>>($"/admin/accessors/{username}", UserController.Token!);
+            if (!response.Success) return CommandResult<List<FsAccess>>.Error(response.ErrorMessage);
+
+            return CommandResult<List<FsAccess>>.Ok(response.Result?.ToList() ?? []);
+        }
     }
 }

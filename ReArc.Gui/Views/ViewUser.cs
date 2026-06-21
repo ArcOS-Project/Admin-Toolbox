@@ -237,6 +237,25 @@ namespace ReArc.Gui.Views
             ShareList.Create(MainForm!, SharesTab, _users!, sharesResult.Result!);
         }
 
+        private async Task PopulateAccessorsTab()
+        {
+            AccessorsTab.Controls.Clear();
+
+            MainForm!.BeginInvoke(() => LoadingDialog.ShowLoading(MainForm!, "Loading accessors"));
+            await Task.Delay(100);
+
+            var accessorsResult = await AdminController.GetAccessorsOf(_user!.Username);
+            await LoadingDialog.Stop();
+
+            if (!accessorsResult.Success)
+            {
+                MessageBox.Show(MainForm, $"An error occurred while obtaining filesystem accessors. {accessorsResult.ErrorMessage}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            AccessorsList.Create(MainForm!, AccessorsTab, _users!, accessorsResult.Result!);
+        }
+
         private async Task DoDeleteUser()
         {
             DialogResult confirm = MessageBox.Show(
@@ -267,6 +286,9 @@ namespace ReArc.Gui.Views
                     break;
                 case 2: // shares
                     _ = PopulateSharesTab();
+                    break;
+                case 3: // accessors
+                    _ = PopulateAccessorsTab();
                     break;
             }
         }

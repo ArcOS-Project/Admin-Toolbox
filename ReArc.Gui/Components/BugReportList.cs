@@ -17,6 +17,7 @@ namespace ReArc.Gui.Components
                 TableHelpers.TextColumn("Author", "Author"),
                 TableHelpers.CheckboxColumn("Opened", "Opened"),
                 TableHelpers.CheckboxColumn("UserData", "User Data?"),
+                TableHelpers.ImageColumn(Properties.Icons.eye, "View", "View"),
             ];
         }
 
@@ -29,6 +30,16 @@ namespace ReArc.Gui.Components
                    (item.Title?.Contains(query, comparison) ?? false) ||
                    (item.UserAgent?.Contains(query, comparison) ?? false) ||
                    item._id == query;
+        }
+
+        protected override void OnCellClicked(string columnName, BugReport item, int row, int column)
+        {
+            switch (columnName)
+            {
+                case "View":
+                    MessageBox.Show("Not implemented");
+                    break;
+            }
         }
 
         protected override bool FilterCallback(string filter, BugReport item)
