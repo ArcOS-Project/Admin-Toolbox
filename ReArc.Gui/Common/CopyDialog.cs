@@ -7,6 +7,8 @@
             InitializeComponent();
 
             ContentBox.Text = content;
+            ContentBox.SelectAll();
+            ContentBox.Copy();
         }
 
         private void CloseButton_Click(object sender, EventArgs e)
